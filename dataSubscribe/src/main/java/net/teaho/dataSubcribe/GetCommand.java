@@ -1,6 +1,6 @@
-package net.teaho.zookeeper.dataSubcribe;
+package net.teaho.dataSubcribe;
 
-import net.teaho.zookeeper.atomOperation.util.User;
+
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 import org.apache.zookeeper.data.Stat;

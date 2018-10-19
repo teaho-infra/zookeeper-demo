@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.dataSubcribe;
+package net.teaho.dataSubcribe;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

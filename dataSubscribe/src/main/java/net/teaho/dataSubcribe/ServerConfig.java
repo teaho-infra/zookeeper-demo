@@ -1,4 +1,5 @@
-package net.teaho.zookeeper.dataSubcribe;
+package net.teaho.dataSubcribe;
+
 
 /**
  * 配置信息
