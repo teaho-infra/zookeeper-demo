@@ -1,14 +1,12 @@
-package net.teaho.zookeeper.loadBalance.zookeeper;
+package net.teaho.loadbalance.zookeeper;
 
-import net.teaho.zookeeper.loadBalance.gateway.Client;
-import net.teaho.zookeeper.loadBalance.server.Server;
+import net.teaho.loadbalance.gateway.Client;
+import net.teaho.loadbalance.server.Server;
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.exception.ZkBadVersionException;
 import org.apache.zookeeper.data.Stat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  *  TODO it's better to update balance in gateway side program

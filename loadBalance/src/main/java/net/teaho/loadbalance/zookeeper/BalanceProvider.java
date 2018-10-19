@@ -1,6 +1,6 @@
-package net.teaho.zookeeper.loadBalance.zookeeper;
+package net.teaho.loadbalance.zookeeper;
 
-import net.teaho.zookeeper.loadBalance.server.Server;
+import net.teaho.loadbalance.server.Server;
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.exception.ZkBadVersionException;
 import org.apache.zookeeper.data.Stat;

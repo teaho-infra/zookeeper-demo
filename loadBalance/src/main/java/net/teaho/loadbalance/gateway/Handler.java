@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.loadBalance.gateway;
+package net.teaho.loadbalance.gateway;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.loadBalance.gateway;
+package net.teaho.loadbalance.gateway;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.bootstrap.ServerBootstrap;
@@ -8,16 +8,15 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import net.teaho.zookeeper.loadBalance.server.ServerChannelHandler;
-import net.teaho.zookeeper.loadBalance.zookeeper.BalanceProvider;
-import net.teaho.zookeeper.loadBalance.zookeeper.BalanceUpdateProvider;
-import net.teaho.zookeeper.loadBalance.zookeeper.ServerConfig;
+import net.teaho.loadbalance.server.ServerChannelHandler;
+import net.teaho.loadbalance.zookeeper.BalanceProvider;
+import net.teaho.loadbalance.zookeeper.BalanceUpdateProvider;
+import net.teaho.loadbalance.zookeeper.ServerConfig;
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Collections;
 import java.util.List;
 
 /**

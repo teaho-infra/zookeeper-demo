@@ -1,6 +1,6 @@
-package net.teaho.zookeeper.loadBalance.server;
+package net.teaho.loadbalance.server;
 
-import net.teaho.zookeeper.loadBalance.zookeeper.ServerConfig;
+import net.teaho.loadbalance.zookeeper.ServerConfig;
 
 import java.util.concurrent.*;
 

@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.loadBalance.zookeeper;
+package net.teaho.loadbalance.zookeeper;
 
 import java.io.Serializable;
 

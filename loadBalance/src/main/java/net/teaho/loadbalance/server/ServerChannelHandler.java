@@ -1,8 +1,8 @@
-package net.teaho.zookeeper.loadBalance.server;
+package net.teaho.loadbalance.server;
 
 import io.netty.channel.ChannelDuplexHandler;
 import io.netty.channel.ChannelHandlerContext;
-import net.teaho.zookeeper.loadBalance.zookeeper.BalanceUpdateProvider;
+import net.teaho.loadbalance.zookeeper.BalanceUpdateProvider;
 
 /**
  *

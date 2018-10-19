@@ -1,6 +1,5 @@
-package net.teaho.zookeeper.loadBalance.zookeeper;
+package net.teaho.loadbalance.zookeeper;
 
-import net.teaho.zookeeper.atomOperation.util.User;
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 import org.apache.zookeeper.CreateMode;

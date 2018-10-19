@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.loadBalance.gateway;
+package net.teaho.loadbalance.gateway;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
