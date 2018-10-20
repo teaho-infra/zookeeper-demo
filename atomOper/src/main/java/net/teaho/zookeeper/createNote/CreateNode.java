@@ -1,6 +1,6 @@
-package net.teaho.zookeeper.atomOperation.createNote;
+package net.teaho.zookeeper.createNote;
 
-import net.teaho.zookeeper.atomOperation.util.User;
+import net.teaho.zookeeper.util.User;
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 import org.apache.zookeeper.CreateMode;

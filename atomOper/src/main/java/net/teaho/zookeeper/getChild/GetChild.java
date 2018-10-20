@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.atomOperation.getChild;
+package net.teaho.zookeeper.getChild;
 
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;

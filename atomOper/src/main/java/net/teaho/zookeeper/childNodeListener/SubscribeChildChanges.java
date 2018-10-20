@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.atomOperation.childNodeListener;
+package net.teaho.zookeeper.childNodeListener;
 
 import org.I0Itec.zkclient.IZkChildListener;
 import org.I0Itec.zkclient.ZkClient;

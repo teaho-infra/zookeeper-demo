@@ -1,6 +1,6 @@
-package net.teaho.zookeeper.atomOperation.writeData;
+package net.teaho.zookeeper.writeData;
 
-import net.teaho.zookeeper.atomOperation.util.User;
+import net.teaho.zookeeper.util.User;
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 

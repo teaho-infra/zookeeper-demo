@@ -1,4 +1,4 @@
-package net.teaho.zookeeper.atomOperation.util;
+package net.teaho.zookeeper.util;
 
 import java.io.Serializable;
 
